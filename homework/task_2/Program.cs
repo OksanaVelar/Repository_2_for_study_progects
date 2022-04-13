@@ -1,10 +1,10 @@
 ﻿int numberA;
 int numberB;
 
-numberA = 9;
+numberA = 5;
 numberB = 7;
 
   if(numberA < numberB)
-     Console.WriteLine(numberB);
+     Console.WriteLine($"Большее число {numberB}, меньшее число {numberA}");
   else
-     Console.WriteLine(numberA);
+     Console.WriteLine($"Большее число {numberA}, меньшее число {numberB}");
