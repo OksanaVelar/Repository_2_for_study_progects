@@ -1,0 +1,15 @@
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/bin/Debug/net6.0/task_3_16.04
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/bin/Debug/net6.0/task_3_16.04.deps.json
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/bin/Debug/net6.0/task_3_16.04.runtimeconfig.json
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/bin/Debug/net6.0/task_3_16.04.dll
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/bin/Debug/net6.0/task_3_16.04.pdb
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.csproj.AssemblyReference.cache
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.AssemblyInfoInputs.cache
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.AssemblyInfo.cs
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.csproj.CoreCompileInputs.cache
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.dll
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/refint/task_3_16.04.dll
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.pdb
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/task_3_16.04.genruntimeconfig.cache
+/Users/oksana/Documents/For_Github_study/Repository_2_for_study_progects/homework/task_3_16.04/obj/Debug/net6.0/ref/task_3_16.04.dll
