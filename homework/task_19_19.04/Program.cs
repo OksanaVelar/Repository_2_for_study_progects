@@ -1,17 +1,18 @@
 ﻿// Проверка числа - является ли полиндромом
 Console.WriteLine("Введите пятизначное число и нажмите клавишу Enter");
 int usernumber = int.Parse(Console.ReadLine());
-int a = usernumber%10;
-int b = usernumber/10;
-int c = usernumber/100;
-int d = usernumber/1000;
-int r = usernumber/10000;
+int a = usernumber%100;
+int b = usernumber/1000;
+int c = a%10;
+int r = a/10;
+int t = b%10;
+int i = b/10;
 
-if((a==r)&(b==d))
+if((i==c)&(t==r)) //сравнение символов равноудаленных от центра "c"
 {
-    Console.WriteLine("Введенное Вами число является полиндромом");
+    Console.Write("Введенное Вами число является полиндромом");
 }
 else
 {
-    Console.WriteLine("Введенное Вами число не является полиндромом");
+    Console.Write("Введенное Вами число не является полиндромом");
 }
