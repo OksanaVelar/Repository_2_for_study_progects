@@ -2,16 +2,10 @@
 Console.WriteLine("Введите число и нажмите клавишу Enter");
 int usernumber = int.Parse(Console.ReadLine());
 int r = 1;
-while(r <= usernumber)
-{
-  if(r < usernumber)
+
+  while(r <= usernumber)
    {
-    Console.Write(Math.Pow(r,3));
+    Console.WriteLine(r*r*r);
     r++;
    }
-  else
-   {
-    Console.Write(Math.Pow(usernumber,3));
-   }
-}
-
+  
