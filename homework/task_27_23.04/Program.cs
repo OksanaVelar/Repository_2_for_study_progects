@@ -4,13 +4,10 @@
 //int numberA = int.Parse(Console.ReadLine());
 int a = 3864;
 string str = a.ToString();
-int[] b = new int[str.Length];
-for(int i = 0; i  < str.Length; i++)
-{
-    b[i] = int.Parse(str[i].ToString());
-}
-//Console.WriteLine(str[a]);
 
+int[]array = new int[] {2,4,5,1,6,77,95,43};
+var str = string.Join(" ", array);
+Console.WriteLine(str);
 
     
 
