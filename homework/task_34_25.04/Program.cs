@@ -13,10 +13,10 @@ for(int i = 0; i < mass.Length; i++)
 {
     if(mass[i]%2 == 0)
     {
-        //sum += mass[i]; 
         sum++;
     }
 }
+
 Console.WriteLine();
 Console.WriteLine($"Сумма четных чисел в массиве = {sum}");
 Console.WriteLine();
