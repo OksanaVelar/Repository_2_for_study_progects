@@ -1,7 +1,7 @@
 ﻿//Задан массив со случайными числами. 
 //Требуется показать сумму элементов на нечетных позициях
 Console.Write("Дан массив случайных чисел: ");
-int[] mass = new int[12];
+int[] mass = new int[5];
 int sum = 0;
 
 for(int i = 0; i < mass.Length; i++)
@@ -12,7 +12,7 @@ for(int i = 0; i < mass.Length; i++)
 Console.WriteLine();
 for(int i = 1; i < mass.Length; i = i + 2)
 {
-    sum++;
+    sum += mass[i];
 }
 Console.WriteLine();
 Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях в массиве = {sum}");
