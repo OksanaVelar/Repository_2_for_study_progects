@@ -1,9 +1,7 @@
 ﻿// В массиве вещественных чисел найти разность между max и min значениями
 Console.WriteLine("Дан массив случайных чисел: ");
 double[] mass = new double[5];
-//double A = mass[0];
-//double B = mass[mass.Length - 1];
-//double Z = B - A;
+
 for(int i = 0; i < mass.Length; i++)
 {
     mass[i] = new Random().NextDouble();
