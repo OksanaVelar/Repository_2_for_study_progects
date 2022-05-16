@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// В двум.масс. Даны позиции элемента. Необходимо вывести его значение 
+// или указать, что такого элемента в массиве нет
 Console.WriteLine("Hello, World!");
