@@ -1,5 +1,5 @@
 ﻿// Найти произведение двух матриц
-int a = 2;
+int a = 4;
 int b = 3;
 
 int[,] mass = new int[a, b];
@@ -38,26 +38,21 @@ for (int i = 0; i < array.GetLength(0); i++)
 PrintMass (mass);
 Console.WriteLine();
 PrintMass (array);
-Product (mass,array);
+Console.WriteLine();
+SumProduct (mass,array);
 
-void Product(int[,] mass, int[,] array)
+void SumProduct(int[,] mass, int[,] array)
 {
-    int k = 0;
-    int l = 0;
-    int m = 0;
-    int n = 0;
-
-   int[,] matrix = new int[mass.GetLength(0),array.GetLength(1)]; 
+int[,] matrix = new int[mass.GetLength(0),array.GetLength(1)]; 
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        int sum = 0;
-        for (int q = 0; q < matrix.GetLength(1); q++)
+        for (int q = 0; q < mass.GetLength(1); q++)
         {
-            sum = sum + (mass[i,j] * array [j,i]);
+            matrix[i, j] = matrix[i, j] + (mass[i, q] * array[q, j]);
         }
-        matrix[i,j] = sum;
+        
         Console.Write(matrix[i,j] + " ");
     }
     Console.WriteLine();
